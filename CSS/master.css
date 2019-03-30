@@ -1,0 +1,27 @@
+body{
+	background-color: lightgray;
+}
+
+.frame{
+	position: relative;
+	left: 200pt;
+	top: 200pt;
+}
+
+.fowardbutton{
+	position: absolute;
+	top: 25pt;
+	left: 128pt;
+	width: 10pt;
+	height: 16pt;
+	background-color: lightgray;
+}
+
+.backbutton{
+	position: absolute;
+	top: 100pt;
+	left: 128pt;
+	width: 10pt;
+	height: 16pt;
+	background-color: lightgray;
+}
