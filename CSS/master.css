@@ -14,13 +14,16 @@ body{
 	position: absolute;
 	width: 5cm;
 	height: 5cm;
-	top: 15pt;
-	left: 13pt;
+	top: 0pt;
+	left: 0pt;
 }
 
 #screenimage{
 	width: 80%;
-	height: 80%
+	height: 80%;
+	position: absolute;
+	top: 13pt;
+	left: 14pt;
 }
 
 .fowardbutton{
@@ -37,4 +40,12 @@ body{
 	left: 129pt;
 	width: 10pt;
 	height: 16pt;
+}
+
+#clock{
+	position: absolute;
+	top: 34pt;
+	left: 42pt;
+	font-size: 23pt;
+	font-family: "Myriad Pro";
 }
