@@ -10,16 +10,16 @@ body{
 
 .fowardbutton{
 	position: absolute;
-	top: 25pt;
-	left: 128pt;
+	top: 27pt;
+	left: 130pt;
 	width: 10pt;
 	height: 16pt;
 }
 
 .backbutton{
 	position: absolute;
-	top: 100pt;
-	left: 128pt;
+	top: 101pt;
+	left: 129pt;
 	width: 10pt;
 	height: 16pt;
 }
