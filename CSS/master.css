@@ -1,7 +1,3 @@
-body{
-	background-color: lightgray;
-}
-
 .frame{
 	position: relative;
 	left: 200pt;
@@ -10,10 +6,15 @@ body{
 	height: 5cm;
 }
 
+#frameimage{
+	width:5cm;
+	height:5cm;
+}
+
 .screen{
 	position: absolute;
-	width: 5cm;
-	height: 5cm;
+	width: 135pt;
+	height: 142pt;
 	top: 0pt;
 	left: 0pt;
 }
@@ -28,18 +29,18 @@ body{
 
 .fowardbutton{
 	position: absolute;
-	top: 27pt;
-	left: 130pt;
-	width: 10pt;
-	height: 16pt;
+	top: 23pt;
+	left: 135pt;
+	width: 7pt;
+	height: 25pt;
 }
 
 .backbutton{
 	position: absolute;
-	top: 101pt;
-	left: 129pt;
-	width: 10pt;
-	height: 16pt;
+	top: 93pt;
+	left: 135pt;
+	width: 7pt;
+	height: 25pt;
 }
 
 #clock{
