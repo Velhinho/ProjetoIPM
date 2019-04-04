@@ -2,19 +2,19 @@
 	position: relative;
 	left: 200pt;
 	top: 200pt;
-	width: 5cm;
-	height: 5cm;
+	width: 7cm;
+	height: 7cm;
 }
 
 #frameimage{
-	width:5cm;
-	height:5cm;
+	width: 5.9cm;
+	height: 5.9cm;
 }
 
 .screen{
 	position: absolute;
-	width: 135pt;
-	height: 142pt;
+	width: 159pt;
+	height: 168pt;
 	top: 0pt;
 	left: 0pt;
 }
@@ -29,16 +29,16 @@
 
 .fowardbutton{
 	position: absolute;
-	top: 23pt;
-	left: 135pt;
+	top: 29pt;
+	left: 160pt;
 	width: 7pt;
 	height: 25pt;
 }
 
 .backbutton{
 	position: absolute;
-	top: 93pt;
-	left: 135pt;
+	top: 113pt;
+	left: 160pt;
 	width: 7pt;
 	height: 25pt;
 }
