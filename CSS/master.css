@@ -1,3 +1,7 @@
+body{
+	font-family: "SF Compact Text";
+}
+
 .frame{
 	position: relative;
 	left: 200pt;
@@ -19,25 +23,9 @@
 	left: 0pt;
 }
 
-#screenimage{
-	width: 80%;
-	height: 80%;
-	position: absolute;
-	top: 13pt;
-	left: 14pt;
-}
-
-.fowardbutton{
+.bigbutton{
 	position: absolute;
 	top: 29pt;
-	left: 160pt;
-	width: 7pt;
-	height: 25pt;
-}
-
-.backbutton{
-	position: absolute;
-	top: 113pt;
 	left: 160pt;
 	width: 7pt;
 	height: 25pt;
@@ -48,5 +36,4 @@
 	top: 34pt;
 	left: 42pt;
 	font-size: 23pt;
-	font-family: "Myriad Pro";
 }
