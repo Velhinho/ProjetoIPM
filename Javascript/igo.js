@@ -1,3 +1,3 @@
-function backbutton(){
-	window.history.back();
+function bigbutton(){
+	window.location.assign("../main/mainmenu.html");
 }

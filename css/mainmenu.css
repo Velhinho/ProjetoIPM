@@ -1,4 +1,4 @@
-.mapbutton{
+#mapbutton{
 	position: absolute;
 	top: 8pt;
 	left: 7pt;
@@ -6,7 +6,7 @@
 	height: 72pt;
 }
 
-.hotelbutton{
+#hotelbutton{
 	position: absolute;
 	top: 8pt;
 	left: 95pt;
@@ -14,7 +14,7 @@
 	height: 72pt;
 }
 
-.emailbutton{
+#emailbutton{
 	position: absolute;
 	top: 94pt;
 	left: 7pt;
@@ -22,7 +22,7 @@
 	height: 72pt;
 }
 
-.weatherbutton{
+#weatherbutton{
 	position: absolute;
 	top: 94pt;
 	left: 95pt;
