@@ -3,29 +3,29 @@
 	top: 8pt;
 	left: 7pt;
 	width: 60pt;
-	height: 72pt;
+	height: 70pt;
 }
 
 #hotelbutton{
 	position: absolute;
 	top: 8pt;
-	left: 95pt;
+	left: 84pt;
 	width: 60pt;
-	height: 72pt;
+	height: 70pt;
 }
 
 #emailbutton{
 	position: absolute;
-	top: 94pt;
+	top: 82pt;
 	left: 7pt;
 	width: 60pt;
-	height: 72pt;
+	height: 70pt;
 }
 
 #weatherbutton{
 	position: absolute;
-	top: 94pt;
-	left: 95pt;
+	top: 82pt;
+	left: 84pt;
 	width: 60pt;
-	height: 72pt;
+	height: 70pt;
 }
