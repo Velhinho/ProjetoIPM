@@ -31,9 +31,10 @@ body{
 	height: 26pt;
 }
 
-#clock{
+#time{
 	position: absolute;
-	top: 34pt;
-	left: 42pt;
-	font-size: 23pt;
+	top: 58pt;
+	left: 36pt;
+	font-size: 27pt;
+	color: white;
 }
