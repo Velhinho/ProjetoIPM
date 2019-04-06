@@ -5,21 +5,19 @@
 		<title>City list</title>
 		<link rel="stylesheet" href="../css/master.css">
 		<link rel="stylesheet" href="../css/weatherlist.css">
+
 		<script src="../javascript/igo.js"></script>
+		<script src="../javascript/list.js"></script>
 	</head>
 
-	<body>
+	<body onload="loadcities()">
 		<div class="frame">
 			<img id="frameimage" src="../images/test/weatherlist.png" alt="watch frame error">
 
 			<div class="screen">
-				<div class="citylist">
-
-					<div id="previouscity">lisboa</div>
-					<div id="selectedcity">leiria</div>
-					<div id="nextcity">setubal</div>
-
-				</div>
+				<div class="citylist" id="previouscity" onclick="previouscity()"></div>
+				<div class="citylist" id="selectedcity"></div>
+				<div class="citylist" id="nextcity" onclick="nextcity()"></div>
 
 				<div id="cancelbutton">Cancel</div>
 				<div id="okbutton">Ok</div>
