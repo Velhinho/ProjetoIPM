@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="../css/weatherlist.css">
 
 		<script src="../javascript/igo.js"></script>
-		<script src="../javascript/list.js"></script>
+		<script src="../javascript/weather.js"></script>
 	</head>
 
 	<body onload="loadcities()">
@@ -15,9 +15,11 @@
 			<img id="frameimage" src="../images/test/weatherlist.png" alt="watch frame error">
 
 			<div class="screen">
-				<div class="citylist" id="previouscity" onclick="previouscity()"></div>
-				<div class="citylist" id="selectedcity"></div>
-				<div class="citylist" id="nextcity" onclick="nextcity()"></div>
+				<div class="">
+					<div class="citylist" id="previouscity" onclick="previouscity()"></div>
+					<div class="citylist" id="selectedcity"></div>
+					<div class="citylist" id="nextcity" onclick="nextcity()"></div>
+				</div>
 
 				<div id="cancelbutton" onclick="undo()">Cancel</div>
 
