@@ -35,4 +35,21 @@
 	top: 120pt;
  	left: 96pt;
   font-size: 18pt;
+	color: black;
+}
+
+#previousarrow{
+	position: absolute;
+	top: 134pt;
+	left: 4pt;
+	height: 20pt;
+	width: 20pt;
+}
+
+#nextarrow{
+	position: absolute;
+	top: 134pt;
+	left: 127pt;
+	height: 20pt;
+	width: 20pt;
 }

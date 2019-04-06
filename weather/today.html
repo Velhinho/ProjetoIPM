@@ -4,14 +4,22 @@
 		<meta charset="utf-8">
 		<title>Today's weather</title>
 		<link rel="stylesheet" href="../css/master.css">
+		<link rel="stylesheet" href="../css/weatherlist.css">
+		
 		<script src="../javascript/igo.js"></script>
 	</head>
 
 	<body>
 		<div class="frame">
-			<img id="frameimage" src="../images/final/weathertoday.png" alt="watch frame error">
+			<img id="frameimage" src="../images/test/weathertoday.png" alt="watch frame error">
 
-			<div class="screen"></div>
+			<div class="screen">
+				<div id="previousarrow" onclick="undo()"></div>
+
+				<a href="tomorrow.html">
+					<div id="nextarrow"></div>
+				</a>
+			</div>
 
 			<div class="bigbutton" onclick="bigbutton()"></div>
 

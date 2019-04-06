@@ -5,6 +5,8 @@ var currentcity = 0;
 function loadcities() {
 	document.getElementById("selectedcity").innerHTML = citylist[currentcity];
 	document.getElementById("nextcity").innerHTML = citylist[currentcity+1];
+	localStorage.setItem("currentcity", citylist[currentcity]);
+	console.log(localStorage.currentcity);
 }
 
 
@@ -13,6 +15,7 @@ function previouscity() {
 		return;
 	}
 	currentcity -= 1;
+	localStorage.currentcity = citylist[currentcity];
 
 	if (currentcity == 0) {
 		document.getElementById("previouscity").innerHTML = "";
@@ -29,8 +32,9 @@ function nextcity() {
 	if (currentcity == citylist.length-1) {
 		return;
 	}
-
 	currentcity += 1;
+	localStorage.currentcity = citylist[currentcity];
+
 	document.getElementById("previouscity").innerHTML = citylist[currentcity-1];
 	document.getElementById("selectedcity").innerHTML = citylist[currentcity];
 
