@@ -8,48 +8,49 @@
 
 #previouscity{
 	font-size: 17pt;
-	top: 12pt;
+	top: 9pt;
 	color: rgb(60, 60, 60);
 }
 
 #selectedcity{
 	font-size: 23pt;
-	top: 44pt;
+	top: 36pt;
 }
 
 #nextcity{
 	font-size: 17pt;
-	top: 80pt;
+	top: 69pt;
 	color: rgb(60, 60, 60);
 }
 
 #cancelbutton{
 	position: absolute;
-	top: 120pt;
- 	left: 13pt;
-  font-size: 18pt;
+	top: 102pt;
+ 	left: 6pt;
+  width: 64pt;
+  height: 45pt;
 }
 
 #okbutton{
 	position: absolute;
-	top: 120pt;
- 	left: 96pt;
-  font-size: 18pt;
-	color: black;
+	top: 102pt;
+ 	left: 77pt;
+  width: 64pt;
+  height: 45pt;
 }
 
 #previousarrow{
 	position: absolute;
-	top: 134pt;
+	top: 2pt;
 	left: 4pt;
-	height: 20pt;
+	height: 153pt;
 	width: 20pt;
 }
 
 #nextarrow{
 	position: absolute;
-	top: 134pt;
+	top: 2pt;
 	left: 127pt;
-	height: 20pt;
+	height: 153pt;
 	width: 20pt;
 }

@@ -1,9 +1,6 @@
-var citylist = ["Lisboa", "Leiria", "Setubal"];
+var citylist = ["Lisboa", "Tomar", "Chaves"];
 
 function loadcities() {
-	console.log(sessionStorage.saved);
-	console.log(sessionStorage.currentcity);
-
 	if(sessionStorage.saved){
 		setcity()
 	}
@@ -77,6 +74,6 @@ function getWeather() {
 	var currentcity = Number(sessionStorage.currentcity);
 	var currentday = getMeta("currentday");
 	var cityname = citylist[currentcity];
-	var weatherfile = "../images/test/" + currentday + cityname + ".png";
+	var weatherfile = "../images/final/" + currentday + cityname + ".png";
 	document.getElementById("frameimage").src = weatherfile;
 }
